@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  GmailTaskManager
 //
-//  Created by MZC01-YJGWON on 11/10/25.
+//  Created by Young Joong on 11/10/25.
 //
 
 import SwiftUI
