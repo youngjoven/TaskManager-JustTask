@@ -2,6 +2,8 @@
 
 Gmail 라벨 기반 과업 관리 iOS 애플리케이션
 
+<img width="856" height="571" alt="그림" src="https://github.com/user-attachments/assets/6d465493-1217-463f-be82-47e27b54b047" />
+
 ## 개요
 
 Just Task는 Gmail의 라벨을 활용하여 이메일을 과업으로 변환하고 관리하는 iOS 앱입니다. AI 요약 기능을 통해 이메일 내용을 자동으로 분석하고, 캘린더 형태로 과업을 시각화합니다.
