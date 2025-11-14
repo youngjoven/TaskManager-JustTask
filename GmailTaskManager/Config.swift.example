@@ -1,0 +1,31 @@
+//
+//  Config.swift.example
+//  GmailTaskManager
+//
+//  ⚠️ 설정 템플릿 파일
+//  이 파일을 "Config.swift"로 복사한 후 실제 API 키 값을 입력하세요.
+//
+
+import Foundation
+
+enum AppConfig {
+    // MARK: - Google OAuth Client ID
+    // 1. Google Cloud Console (https://console.cloud.google.com/)에 접속
+    // 2. APIs & Services > Credentials로 이동
+    // 3. "Create Credentials" > "OAuth 2.0 Client ID" 클릭
+    // 4. Application type: "iOS" 선택
+    // 5. Bundle ID: com.yjgwon.GmailTaskManager 입력
+    // 6. 생성된 Client ID를 아래에 입력
+    static let googleClientID = "YOUR_GOOGLE_CLIENT_ID_HERE.apps.googleusercontent.com"
+
+    // MARK: - Gemini API Key
+    // 1. Google AI Studio (https://aistudio.google.com/app/apikey)에 접속
+    // 2. "Create API Key" 클릭
+    // 3. 생성된 API Key를 아래에 입력
+    // ⚠️ 주의: 이 키는 절대 외부에 노출되어서는 안 됩니다!
+    static let geminiAPIKey = "YOUR_GEMINI_API_KEY_HERE"
+
+    // MARK: - Gmail API Scopes
+    // Gmail 읽기 권한 (변경하지 마세요)
+    static let gmailScopes = ["https://www.googleapis.com/auth/gmail.readonly"]
+}

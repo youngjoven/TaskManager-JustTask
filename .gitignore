@@ -1,0 +1,102 @@
+# ===========================
+# iOS / Xcode
+# ===========================
+
+# Xcode
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+*.xcworkspace/*
+!*.xcworkspace/contents.xcworkspacedata
+!*.xcworkspace/xcshareddata/
+
+# User-specific files
+*.xcuserstate
+*.xcuserdatad/
+xcuserdata/
+
+# Build generated
+build/
+DerivedData/
+*.hmap
+
+# CocoaPods
+Pods/
+*.podspec
+
+# Carthage
+Carthage/Build/
+
+# Swift Package Manager
+.swiftpm/
+*.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/
+*.xcodeproj/xcuserdata/
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Code Injection
+iOSInjectionProject/
+
+# ===========================
+# 민감한 정보 파일 (SECURITY)
+# ===========================
+
+# Google OAuth Credentials
+GoogleService-Info.plist
+**/GoogleService-Info.plist
+client_*.plist
+client_*.json
+
+# API Keys & Secrets
+Config.swift
+Secrets.swift
+APIKeys.swift
+.env
+.env.*
+
+# 개인 계정 정보
+**/Info-Private.plist
+
+# ===========================
+# macOS
+# ===========================
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# ===========================
+# Development
+# ===========================
+
+# IDEs
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temporary files
+*.tmp
+tmp/
+temp/
