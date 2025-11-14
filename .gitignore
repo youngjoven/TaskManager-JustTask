@@ -52,6 +52,10 @@ APIKeys.swift
 .env
 .env.*
 
+# Info.plist (contains OAuth URL schemes)
+Info.plist
+**/Info.plist
+
 # 개인 계정 정보
 **/Info-Private.plist
 
