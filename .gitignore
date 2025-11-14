@@ -2,13 +2,9 @@
 # iOS / Xcode
 # ===========================
 
-# Xcode
-*.xcodeproj/*
-!*.xcodeproj/project.pbxproj
-!*.xcodeproj/xcshareddata/
-*.xcworkspace/*
-!*.xcworkspace/contents.xcworkspacedata
-!*.xcworkspace/xcshareddata/
+# Xcode - Ignore entire xcodeproj folder
+*.xcodeproj/
+*.xcworkspace/
 
 # User-specific files
 *.xcuserstate
@@ -29,8 +25,6 @@ Carthage/Build/
 
 # Swift Package Manager
 .swiftpm/
-*.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/
-*.xcodeproj/xcuserdata/
 
 # fastlane
 fastlane/report.xml
